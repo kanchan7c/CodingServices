@@ -13,6 +13,7 @@ const Service = () => {
   return (
     <>
     <Hero hero_text="One stop destination for all your digital needs"/>
+    <div className="container">
     <div className="container-fluid">
       <div className="row mt-5">
         <div className="col-md-10 mx-auto">
@@ -27,6 +28,7 @@ const Service = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
     </div>
     </>

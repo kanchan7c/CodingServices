@@ -51,11 +51,28 @@ code {
   .hero-Background_Image {
     display: none;
   }
+  .coding-service-logo{
+    font-size: 1rem !important;
+  }
+  iframe {
+    width: 300px;
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  .heroAnimation {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .hero-Background_Image {
     display: none;
+  }
+  .card-img-top {
+    height: 20vh !important;
+    object-fit: cover !important;
   }
 }
 
@@ -74,6 +91,7 @@ brand-tagline__subtext {
   transition: 0.5s;
   animation-direction: alternate;
   position: relative;
+  min-width: 300px;
 }
 
 @keyframes marginShift{
@@ -148,4 +166,9 @@ brand-tagline__subtext {
   background: linear-gradient(to right, #4A00E0, #8E2DE2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   height: 10vw;
 }
+.app-service__Image {
+  min-height: 300px;
+}
+
+
 
