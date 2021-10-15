@@ -170,5 +170,9 @@ brand-tagline__subtext {
   min-height: 300px;
 }
 
+.cardImage {
+  min-height: 300px !important;
+}
+
 
 
