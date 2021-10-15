@@ -58,6 +58,9 @@ code {
     width: 300px;
     height: 400px;
   }
+  .cardImage {
+    min-height: 300px !important;
+  }
 }
 
 @media screen and (max-width: 1200px) {
@@ -170,9 +173,7 @@ brand-tagline__subtext {
   min-height: 300px;
 }
 
-.cardImage {
-  min-height: 300px !important;
-}
+
 
 
 
